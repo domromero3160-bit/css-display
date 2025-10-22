@@ -20,30 +20,52 @@ div img {
 
 .container1 {
     height: 200px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container2 {
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .container3 {
     height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
     
 }
 
 .container4 {
-    height: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
     
 }
 
 .container5 {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .container6 {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
     
 }
